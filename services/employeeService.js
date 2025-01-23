@@ -3,7 +3,7 @@ const fs = require("fs");
 
 class EmployeeService {
   constructor() {
-    this.filePath = "users.json";
+    this.filePath = "employees.json";
   }
 
   // Helper function to read employees from JSON file
