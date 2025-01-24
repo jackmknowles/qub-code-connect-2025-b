@@ -1,23 +1,24 @@
 body {
   padding: 50px;
+  padding-inline: 20;
   font: 14px "galano grotesque", sans-serif;
+  text-decoration-color: #61a83f;
+  
 }
 
 a {
-  text-decoration-color: #283583, #61a83f,#ffffff,#41679f,#004631, #575756;
-  background-color: #ec6608, #cfd600, #009fe3;
-
+ text-decoration-color: #283583;
 }
 
-/* this is from package-lock.json
-"color-convert" :"^2.0.1";
-"supports-color": "^7.1.0";
-"color-name"= "~1.1.4"
-"version": "7.2.0"
-*/
+h1{
+  color: #41679f;
+}
 
-/* not liking these colours being separate
-*/
+
+.table {
+  padding: 10px;  
+}
+
 .blue {
   color: #283583; 
 }
@@ -55,39 +56,3 @@ a {
   color: #009fe3;
 }
 
-/* pasted this from a previous project to help guide me
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.myborder {
-    color: darkred;
-    background-color: blanchedalmond;
-}
-
-#myborder {
-
-    border-style: double;
-    border-color: darkred;
-}
-
-a{
-    text-decoration: none;
-}
-a:link {
-    color: red;
-}
-   
-a:visited {
-    color: purple;
-}
-
-a:hover {
-    color: pink;
-}
-
-a:active {
-    color: grey;
-}
-    */

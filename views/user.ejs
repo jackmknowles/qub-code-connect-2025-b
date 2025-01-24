@@ -5,25 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Information</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-    <h1>User Information</h1>
+    <h1 class="blue">User Information</h1>
 
     <% if (user) { %>
-        <table>
+        <table class="table">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Role</th>
+                    <th class="table">Name</th>
+                    <th class="table">Email</th>
+                    <th class="table">Role</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><%= user.name %></td>
-                    <td><%= user.email %></td>
-                    <td><%= user.role %></td>
+                    <td class="table"><%= user.name %></td>
+                    <td class="table"><%= user.email %></td>
+                    <td class="table"><%= user.role %></td>
                 </tr>
             </tbody>
         </table>
