@@ -4,7 +4,46 @@ body {
   font: 14px "galano grotesque", sans-serif;
   text-decoration-color: #61a83f;
   
+  
 }
+.navbar-logo {
+  height: 40px; 
+  margin-right: 2em; 
+}
+
+.nav-bar-links{
+  list-style: none;
+  display: flex;
+  gap: 2em; 
+  margin: 0;
+  padding: 0;
+}
+.navBarLink{
+
+    color: #283583; 
+    text-decoration: none;
+    font-size: 1.1rem; 
+    font-weight: 500;
+  
+}
+.navBarContainer {
+  
+    display: flex;
+    align-items: center; /* Align logo and links vertically */
+    justify-content: flex-start; /* Align all content to the left */
+    gap: 2em; /* Space between the logo and links */
+
+}
+.navBar {
+
+  background-color: white; 
+
+  padding: 1em 2em;
+
+  border-bottom: 1px solid #ddd; 
+
+}
+ 
 
 a {
  text-decoration-color: #283583;
