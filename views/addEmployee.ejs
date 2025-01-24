@@ -35,9 +35,30 @@
           let salaryInput = document.getElementById("salary");
           let salaryValue = parseInt(salaryInput.value, 10);
 
+          // Regular expression to allow only letters and spaces
+          let textRegex = /^[A-Za-z\s]+$/;
+
           // Check if any field is empty
           if (!name || !address || !role) {
             alert("All fields are required.");
+            event.preventDefault(); // Prevent form submission
+            return;
+          }
+
+          // Check if name contains only letters and spaces
+          if (!textRegex.test(name)) {
+            alert("Name can only contain letters and spaces.");
+            document.getElementById("name").value = ""; // Clear name input
+            document.getElementById("name").focus();
+            event.preventDefault(); // Prevent form submission
+            return;
+          }
+
+          // Check if role contains only letters and spaces
+          if (!textRegex.test(role)) {
+            alert("Role can only contain letters and spaces.");
+            document.getElementById("role").value = ""; // Clear role input
+            document.getElementById("role").focus();
             event.preventDefault(); // Prevent form submission
             return;
           }
