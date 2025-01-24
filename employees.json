@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "name": "brad",
+    "address": "123 street",
+    "salary": "42000",
+    "role": "devops",
+    "id": 1
+  }
+]

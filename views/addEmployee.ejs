@@ -11,16 +11,16 @@
 
     <form action="/employees/add" method="post">
       <label for="name">Name:</label><br />
-      <input type="name" id="name" name="name" /><br />
+      <input type="text" id="name" name="name" /><br />
 
       <label for="address">Address:</label><br />
-      <input type="address" id="address" name="address" /><br />
+      <input type="text" id="address" name="address" /><br />
 
       <label for="salary">Salary:</label><br />
-      <input type="salary" id="salary" name="salary" /><br />
+      <input type="number" id="salary" min="0" name="salary" /><br />
 
       <label for="role">Role:</label><br />
-      <input type="role" id="role" name="role" /><br />
+      <input type="text" id="role" name="role" /><br />
 
       <input type="submit" value="Submit" />
     </form>
