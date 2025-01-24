@@ -36,7 +36,7 @@
           let salaryValue = parseInt(salaryInput.value, 10);
 
           // Regular expression to allow only letters and spaces
-          let textRegex = /^[A-Za-z\s]+$/;
+          let textRegex = /^[A-Za-zÀ-ÖØ-öø-ÿ\s-]+$/;
 
           // Check if any field is empty
           if (!name || !address || !role) {
@@ -47,7 +47,7 @@
 
           // Check if name contains only letters and spaces
           if (!textRegex.test(name)) {
-            alert("Name can only contain letters and spaces.");
+            alert("Name can only contain letters, hyphens and spaces.");
             document.getElementById("name").value = ""; // Clear name input
             document.getElementById("name").focus();
             event.preventDefault(); // Prevent form submission
