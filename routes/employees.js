@@ -11,8 +11,6 @@ router.get('/', (req, res) => {
   res.render('users', { users: users })
 });
 
-module.exports = router;
-=======
 var express = require("express");
 var router = express.Router();
 
