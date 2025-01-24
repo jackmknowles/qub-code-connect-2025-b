@@ -1,8 +1,58 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-inline: 20;
+  font: 14px "galano grotesque", sans-serif;
+  text-decoration-color: #61a83f;
+  
 }
 
 a {
-  color: #00B7FF;
+ text-decoration-color: #283583;
 }
+
+h1{
+  color: #41679f;
+}
+
+
+.table {
+  padding: 10px;  
+}
+
+.blue {
+  color: #283583; 
+}
+
+.green {
+  color: #61a83f;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.mid-blue {
+  color: #41679f;
+}
+
+.dark-green {
+  color: #004631;
+}
+
+.grey {
+  color: #575756;
+}
+
+/* Secondary Colors */
+.orange {
+  color: #ec6608;
+}
+
+.bright-green {
+  color: #cfd600;
+}
+
+.bright-blue {
+  color: #009fe3;
+}
+

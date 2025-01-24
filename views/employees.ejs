@@ -5,10 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Employee List</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <h1>Employee List</h1>
+    <%- include('partials/nav') %>
+    <h1 class="dark-green">Employee List</h1>
 
     <% if (employees && employees.length > 0) { %>
     <table>
