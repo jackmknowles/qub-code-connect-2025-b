@@ -1,23 +1,23 @@
-<!-- index.ejs -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add New User</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 class="blue">Add New User</h1>
+    <title>Add New Employee</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Add New Employee</h1>
 
-    
-
-    <form action="/users/add" method="post">
+    <form action="/employees/add" method="post">
       <label for="name">Name:</label><br />
       <input type="name" id="name" name="name" /><br />
 
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" /><br />
+      <label for="address">Address:</label><br />
+      <input type="address" id="address" name="address" /><br />
+
+      <label for="salary">Salary:</label><br />
+      <input type="salary" id="salary" name="salary" /><br />
 
       <label for="role">Role:</label><br />
       <input type="role" id="role" name="role" /><br />
